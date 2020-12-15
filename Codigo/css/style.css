@@ -1,3 +1,39 @@
-body {
-    background-color: aquamarine;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+}
+#logo-header {
+    font-size: 36px;
+
+    color: #150433;
+    font-weight: bold;
+}
+
+.menu-header {
+    text-align: end;
+
+    height: 40px;
+
+    padding: 10px;
+}
+
+.menu-header ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu-header ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #150433;
+}
+
+.menu-header ul li a:hover {
+    font-weight: bold;
 }
