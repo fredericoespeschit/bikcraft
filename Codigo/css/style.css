@@ -37,3 +37,36 @@
 .menu-header ul li a:hover {
     font-weight: bold;
 }
+
+.introduction {
+    margin-top: 60px;
+    text-align: center;
+}
+.intro {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.intro h1 {
+    max-width: 650px;
+    font-size: 48px;
+    color: #150433;
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+
+.intro p {
+    max-width: 430px;
+    margin: 0 auto;
+
+    margin-bottom: 40px;
+}
+
+
+
+ .button {
+    width: 536px;
+    height: 42px;
+background-color: lightcoral;
+}
