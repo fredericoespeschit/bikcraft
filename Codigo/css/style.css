@@ -80,5 +80,34 @@
 }
 
 .prod {
-    background-color: #f61067;;
+    padding-top: 60px;
+  }
+
+.prod h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #150433;
+    padding-bottom: 20px;
+}
+
+.product {
+    width: 380px;
+    margin-bottom: 40px;
+
+}
+
+.product img {
+    margin-left: 50px;
+    align-items: center;
+}
+.product h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #150433;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.product p {
+    text-align: center;
 }
