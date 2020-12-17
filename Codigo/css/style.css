@@ -81,7 +81,9 @@
 
 .prod {
     padding-top: 60px;
-  }
+    float: left;
+    background-color: darkblue;
+}
 
 .prod h2 {
     font-size: 24px;
@@ -90,10 +92,18 @@
     padding-bottom: 20px;
 }
 
+.prod p {
+    width: 480px;
+    font-weight: 300;
+
+    color: #a1a5aa;
+    background-color: crimson;
+}
+
 .product {
-    width: 380px;
+    width: 300px;
     margin-bottom: 40px;
-    float: left;
+    display: inline-block;
 }
 
 .product img {
@@ -103,6 +113,7 @@
 .product h3 {
     font-size: 18px;
     text-align: center;
+    margin-left: 80px;
     color: #150433;
     font-weight: 600;
     margin-top: 10px;
@@ -110,12 +121,10 @@
 }
 
 .product p {
-   width: 300px;
-   margin-left: 40px;
+    width: 280px;
+    margin-left: 50px;
     text-align: center;
-
     font-weight: 300;
     color: #a1a5aa;
     font-size: 14px;
- 
 }
