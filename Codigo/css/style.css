@@ -4,22 +4,18 @@
 
 .header {
     height: 80px;
-
     display: flex;
     align-items: center;
 }
 #logo-header {
     font-size: 36px;
-
     color: #150433;
     font-weight: bold;
 }
 
 .menu-header {
     text-align: end;
-
     height: 40px;
-
     padding: 10px;
 }
 
@@ -39,7 +35,6 @@
 }
 
 .introduction {
-    margin-top: 60px;
     text-align: center;
 }
 .intro {
@@ -53,14 +48,14 @@
     font-size: 48px;
     color: #150433;
     font-weight: bold;
-    margin-bottom: 40px;
 }
 
 .intro p {
     max-width: 430px;
     margin: 0 auto;
-    margin-bottom: 40px;
+    padding: 20px 0 40px 0;
     font-weight: 300;
+    line-height: 1.2em;
     color: #a1a5aa; /* Cinza */
 }
 
@@ -79,52 +74,46 @@
     padding: 11px;
 }
 
-.prod {
-    padding-top: 60px;
+.prod { 
+    width: 100%;
     float: left;
-    background-color: darkblue;
+    margin: 50px auto 50px auto;
+    text-align: center;
+ 
 }
 
 .prod h2 {
-    font-size: 24px;
     text-align: center;
+    font-size: 24px;
     color: #150433;
-    padding-bottom: 20px;
 }
 
-.prod p {
-    width: 480px;
+.prod > p {
+    width: 500px;
     font-weight: 300;
-
-    color: #a1a5aa;
-    background-color: crimson;
+    line-height: 1.2em;
+    color: #a1a5aa; 
+    margin: 0 auto 30px auto;
+    
 }
 
 .product {
     width: 300px;
-    margin-bottom: 40px;
     display: inline-block;
+    margin: 30px 0;
 }
 
-.product img {
-    margin-left: 50px;
-    align-items: center;
-}
 .product h3 {
+    padding: 8px 0 8px 0;
     font-size: 18px;
-    text-align: center;
-    margin-left: 80px;
-    color: #150433;
     font-weight: 600;
-    margin-top: 10px;
-    padding-bottom: 10px;
+    color: #150433;
 }
 
 .product p {
-    width: 280px;
-    margin-left: 50px;
-    text-align: center;
-    font-weight: 300;
-    color: #a1a5aa;
+    width: 287px;
+    line-height: 1.2em;
     font-size: 14px;
+    font-weight: 300;
+    color: #a1a5aa; 
 }
