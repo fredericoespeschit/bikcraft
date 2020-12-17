@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -45,6 +45,7 @@
 .intro {
     width: 650px;
     margin: 0 auto;
+    display: block;
 }
 
 .intro h1 {
@@ -52,21 +53,32 @@
     font-size: 48px;
     color: #150433;
     font-weight: bold;
-
     margin-bottom: 40px;
 }
 
 .intro p {
     max-width: 430px;
     margin: 0 auto;
-
     margin-bottom: 40px;
+    font-weight: 300;
+    color: #a1a5aa; /* Cinza */
 }
 
+.button {
+    background: #150433;
+    color: #fff;
+    padding: 13px 30px 13px 30px;
+}
 
-
- .button {
-    width: 536px;
+.empty-button {
+    margin-left: 8 px;
+    width: 136px;
     height: 42px;
-background-color: lightcoral;
+    border: 2px solid #f61067;
+    color: #f61067;
+    padding: 11px;
+}
+
+.prod {
+    background-color: #f61067;;
 }
