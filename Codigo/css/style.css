@@ -35,6 +35,7 @@
 }
 
 .introduction {
+    margin-top: 30px;
     text-align: center;
 }
 .intro {
@@ -66,7 +67,7 @@
 }
 
 .empty-button {
-    margin-left: 8 px;
+    margin-left: 9px;
     width: 136px;
     height: 42px;
     border: 2px solid #f61067;
@@ -93,8 +94,8 @@
     font-weight: 300;
     line-height: 1.2em;
     color: #a1a5aa; 
-    margin: 0 auto 30px auto;
-    
+    margin: 0 auto 36px auto;
+    clear: both;
 }
 
 .product {
@@ -104,7 +105,7 @@
 }
 
 .product h3 {
-    padding: 8px 0 8px 0;
+    padding: 15px 0 15px 0;
     font-size: 18px;
     font-weight: 600;
     color: #150433;
@@ -116,4 +117,14 @@
     font-size: 14px;
     font-weight: 300;
     color: #a1a5aa; 
+}
+
+
+.portif {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.portif a:nth-last-child(2){
+    margin-top: 10px;
 }
