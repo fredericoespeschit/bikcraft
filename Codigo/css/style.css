@@ -133,12 +133,16 @@
 .portif p:nth-last-of-type(1) {
     margin: 30px auto 36px auto;
 }
+
+
 .qa{
+    background-color: blueviolet;
     margin: 0 auto 50px auto;
 }
 
 .qa h2 {
     margin: 0 0 30px 0;
+  
 }
 
 .qa p {
@@ -148,8 +152,31 @@
     font-weight: 300;
     line-height: 1.2em;
     color: #a1a5aa;
+    background-color: brown;
 }
 
 .qa > p {
     margin-right: 30px;
+  
+} 
+
+
+.qua {
+    background-color: cadetblue;
+    clear: both;
+}
+
+.qua h2 {
+    font-size: 48px;
+    color: #150433;
+    font-weight: bold;
+
+}
+
+.qua p {
+    
+}
+
+.qua a {
+   
 }
