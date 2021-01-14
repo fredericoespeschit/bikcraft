@@ -143,6 +143,7 @@
 .qa p {
     padding-left: 40px;
     padding-right: 40px;
+    color: #a1a5aa;
 }
 
 .quality h2 {
@@ -157,16 +158,26 @@
     font-weight: bold;
 }
 
+
+
 .quality li {
     text-align: center;
     padding-top: 45px;
     margin-bottom: 40px;
+    color: #a1a5aa;
 }
 
 ul + p {
     width: 610px;
     text-align: center;
     margin: 0px auto 36px auto;
+    color: #a1a5aa;
+}
+
+ul h3 {
+    color: #150433;
+    font-weight: 600;
+    margin-bottom: 6px;
 }
 
 .quality a {
@@ -187,4 +198,14 @@ ul + p {
     position: absolute;
     top: 368px;
     right: 157px;
+}
+
+.citacao  {
+    padding: 50px 0 40px 0px;
+    text-align: center;
+    color: #150433;
+}
+
+.citacao cite {
+    color: #F61067;
 }
