@@ -135,11 +135,6 @@
     margin: 30px auto 36px auto;
 }
 
-.quality {
-   background-color: chartreuse;
-  
-}
-
 .qa  {
     width: 100%;
     display: flex;
@@ -162,10 +157,34 @@
     font-weight: bold;
 }
 
-ul + p {
+.quality li {
     text-align: center;
-    margin: 70px auto 36px auto;
+    padding-top: 45px;
+    margin-bottom: 40px;
+}
+
+ul + p {
+    width: 610px;
+    text-align: center;
+    margin: 0px auto 36px auto;
+}
+
+.quality a {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
 }
 
 
-
+.quality::after{
+    content: "";
+    width: 643px;
+    height: 83px;
+    display: block;
+    background: url("../img/linha.png") no-repeat center;
+    position: absolute;
+    top: 368px;
+    right: 157px;
+}
