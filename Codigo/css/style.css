@@ -215,10 +215,3 @@ footer {
     background-color: #150433;
     color: #fff;
 }
-
-.rodape::after{
-    content: "";
-    width: 643px;
-    height: 2px;
-   color: white;
-}
