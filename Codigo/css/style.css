@@ -215,3 +215,8 @@ footer {
     background-color: #150433;
     color: #fff;
 }
+
+.rodape p {
+    margin: 0 auto;
+
+}
